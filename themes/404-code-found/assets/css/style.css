@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#e3e3e3 !important;
+}
+
+nav{
+  background:#666 !important;
+}
+#navcat{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+}
+
+.carousel .carousel-item {
+  width:300px !important;
+  height: 600px;
+}
+main img{
+  width: 100% !important;
+}
+main figcaption{
+  margin: 2%;
+}
+.lastart{
+  margin-left: 5% !important;
+  background: #666 !important;
+  width: 60% !important;
+  padding:3% !important;
+}
+
+.authors{
+  margin-left: 10% !important;
+  background: #666 !important;
+  width: 20% !important;
+  padding:3% !important;
+}
+
+.pagination{
+  margin-top: 4% !important;
+}
+.authimg{
+  width: 700px !important;
+}
