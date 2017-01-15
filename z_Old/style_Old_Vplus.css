@@ -5,7 +5,7 @@
 }
 
 body{
-  background: #e3e3e3 !important;
+  background:#e3e3e3 !important;
   overflow-x: hidden;
   width: 100vw;
   height: 100vh;
@@ -157,147 +157,6 @@ main figcaption article{
   padding-top: 5% !important
 }
 
-.profilphoto{
-width: 100% !important;
-height: 100% !important;
-border-radius: 50%;
-}
-
-.socialm{
-  width: 100% !important;
-  height: 100% !important;
-}
-
-.cv img{
-  width: 100% !important;
-  height: 100% !important;
-  margin-bottom: 10% !important;
-}
-.profil {
-  height:150vh;
-}
-
-#cvBtn{
-  position: relative !important;
-}
-
-.contact{
-  font-size: 1em !important;
-  font-weight: bold;
-  text-align: center !important;
-}
-/* Partie biographie citation etc */
-.lastart h4{
-  color:#ed2969;
-}
-.lastart p{
-  text-align: justify;
-}
-.citation{
-  text-indent: 50px;
-
-  text-align: justify !important;
-}
-
-
-.articleprev{
-  margin: 2.5% 0%;
-  color: #444 !important;
-}
-
-.articleprev img{
-  width: 100%;
-  border-top: 1px solid grey;
-}
-.articleprev p{
-  background-color: #999 !important;
-  padding: 4%;
-  font-size: 1em !important;
-}
-.articleprev .artTitle{
-  border-top: 2px solid #ed2669;
-  text-transform: uppercase;
-  text-align: center;
-  color:#ed2969;
-  font-weight: bold;
-}
-.date{
-  text-align: center;
-  padding-bottom: 1em;
-  color: #fff !important;
-}
-
-
-.outborder{
-  border-left: 3px solid #ed2669;
-  margin-left: 3% !important;
-  margin-top: 2% !important;
-  margin-bottom: 2% !important;
-}
-.inborder{
-  border-left:3px solid #ed2669;
-}
-.inborder img{
-  border-radius: 100%;
-  margin-top: 3% !important;
-}
-.inborder h2{
-  color: #666;
-  text-transform: uppercase;
-}
-.inborder span{
-  text-transform: uppercase;
-  font-size: 2em;
-  padding-left: 0.3%;
-}
-
-.dateArt{
-  color: #ed2669;
-}
-
-.cat, .nameauthor{
-  color: #666;
-}
-
-.chat{
-  color: #ed2669 !important;
-  font-size: 0.8em !important;
-
-}
-.inborder p{
-  padding-left: 1%;
-  text-align: justify;
-}
-.tag{
-  color:#383838;
-  font-weight: bolder;
-}
-.commenter{
-  margin-top: 10%;
-}
-
-#btnCom{
-  position: relative !important;
-  z-index: 1 !important;
-}
-
-#btnOg{
-  position: relative !important;
-  left: 25% !important;
-  z-index: 2 !important;
-}
-
-.input-field textarea[type=text]:focus:not([readonly]){
-  border-bottom: 1px solid #ed2969;
-  box-shadow: 0 1px 0 0 #ed2969;
-  color: #ed2969;
-}
-
-.commenter span{
-  color: #666 !important;
-}
-
-
 footer{
   background:#fff !important;
   margin: 0 !important;
@@ -348,6 +207,7 @@ label{
   background-color: #444 !important;
   padding-top: 1% !important;
 }
+
 
 @media screen and (max-width: 640px) {
   .lastart{

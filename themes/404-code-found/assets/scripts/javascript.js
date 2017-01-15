@@ -1,7 +1,8 @@
 $(document).ready(function(){
+
    $('.carousel').carousel({
-     dist:-30,
-     shift:0,
-     padding:20,
-   });
+    dist:-50,
+    shift:0,
+    padding:-70
+    });
  });
