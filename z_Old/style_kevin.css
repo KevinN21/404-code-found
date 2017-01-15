@@ -1,0 +1,205 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#e3e3e3 !important;
+  overflow-x: hidden;
+}
+
+nav{
+  background:#444 !important;
+  margin-bottom: 3%;
+}
+#navcat{
+  margin-top: 5% !important;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+}
+
+.nav-wrapper img {
+  margin-top: 13% !important;
+}
+.orbar{
+  font-size: 2em;
+}
+#nav-mobile{
+  margin-top: -1%;
+  margin-left: 1%;
+}
+.carousel .carousel-item {
+  width:300px !important;
+  height: 600px;
+}
+
+h4 span {
+  color:#ed2969;
+}
+.lastart{
+  margin:0 2.5% !important;
+  background: #888 !important;
+  padding:3% !important;
+}
+@media screen and (max-width: 640px) {
+  .lastart{
+    margin:0% !important;
+    background: #888 !important;
+    padding:3% !important;
+  }
+}
+
+.pagination{
+  margin-top: 4% !important;
+}
+figcaption img {
+  width: 100% !important;
+  margin-bottom: -3%;
+  border: 2px solid grey;
+}
+
+main figcaption{
+  margin: 2%;
+}
+
+main figcaption p{
+  border: 2px solid grey;
+  border-top: 5px solid #ed2969;
+  padding: 2% !important;
+  text-align: justify;
+}
+.lastarticle{
+  color:black;
+}
+.authors{
+  margin-left: 5% !important;
+  background: #888 !important;
+  width: 20% !important;
+  padding:3% 0!important;
+}
+#authorname {
+  margin-top: 20% !important;
+}
+footer{
+  background:#444 !important;
+}
+/* label color */
+ .input-field label {
+   color: white !important;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus {
+   color: #ed2969 !important;
+   border-bottom: 1px solid #ed2969 !important;
+   box-shadow: 0 1px 0 0 #ed2969 !important;
+}
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid green !important;
+   box-shadow: 0 1px 0 0 #ed2969 !important;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid red!important;
+   box-shadow: 0 1px 0 0 white !important;
+ }
+ /* icon prefix focus color */
+.input-field .prefix {
+   color:white !important;
+}
+ .input-field .prefix.active {
+   color:#ed2969 !important;
+ }
+      /* Couleur du mail */
+.btnsend{
+  margin-top: 2%;
+}
+.photoprofil .profilphoto{
+width: 100% !important;
+height: 100% !important;
+border-radius: 50%;
+}
+.cv img{
+  margin: 5%;
+  width: 30%;
+  height: 100%;
+}
+.profil {
+  height:150vh;
+}
+/* Partie biographie citation etc */
+.lastart h4{
+  color:#ed2969;
+}
+.lastart p{
+  text-align: justify;
+}
+.citation{text-indent: 50px;}
+
+.articleprev{
+  margin: 2.5% 0%;
+}
+
+.articleprev img{
+  width: 100%;
+  border-top: 1px solid grey;
+}
+.articleprev p{
+  background-color: #555;
+  padding: 4%;
+}
+.articleprev .artTitle{
+  border-top: 2px solid #ed2669;
+  text-transform: uppercase;
+  text-align: center;
+  color:#ed2969;
+  font-weight: bold;
+}
+.articleprev .date{
+  background-color: #555;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.outborder{
+  border-left: 3px solid #ed2669;
+  margin-left: 3% !important;
+}
+.inborder{
+  border-left:3px solid #ed2669;
+}
+.inborder img{
+  border-radius: 100%;
+}
+.inborder h2{
+  color:#383838;
+  text-transform: uppercase;
+}
+.inborder span{
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-left: 0.3%;
+}
+.datencat{
+  color:#ed2669;
+}
+.catbadge{
+  background-color: #ed2669;
+  border-radius: 100%;
+  padding: 1%;
+  font-size: 1em !important;
+  margin-left: 1%;
+}
+.inborder p{
+  padding-left: 1%;
+  text-align: justify;
+}
+.tag{
+  color:#383838;
+  font-weight: bolder;
+}
+.commenter{
+  margin-top: 10%;
+}

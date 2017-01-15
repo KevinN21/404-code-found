@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#e3e3e3 !important;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  position: relative !important;
+}
+
+nav{
+  background:#666 !important;
+}
+#navcat{
+  margin-top: 5% !important;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /*justify-content: space-between;*/
+}
+
+.nav-wrapper img {
+  margin-top: 13% !important;
+}
+.orbar{
+  font-size: 2em;
+}
+#nav-mobile{
+  margin-top: -1%;
+  margin-left: 1%;
+}
+.carousel {
+  position: relative;
+  width: 80vw !important;
+  height: 40vh;
+  margin-top: 2%;
+  padding: 0;
+}
+
+.carousel-item {
+  width: 25vw !important;
+  height: 20vh;
+  color: #ed2969;
+  margin-top: 4% !important;
+}
+
+.text{
+  position: absolute !important;
+  top: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.carousel h1{
+  font-size: 2em;
+}
+
+.carousel h3{
+  font-size: 1em;
+  top: 60%;
+}
+
+.btn{
+  position: absolute;
+  top:-40%;
+  background-color: #ed2969 !important;
+}
+
+li.indicator-item{
+  background-color: #ed2969 !important;
+
+}
+
+
+main{
+ position: relative !important;
+}
+
+
+h4 span {
+  color:#ed2969;
+}
+.lastart{
+  margin-left: 5% !important;
+  background: #666 !important;
+  padding:3% !important;
+}
+@media (max-width:400px) {
+  .lastart{
+    background: #666 !important;
+    padding:3% !important;
+  }
+}
+
+.pagination{
+  margin-top: 4% !important;
+}
+.authimg{
+}
+figcaption img {
+  width: 100% !important;
+  border: 2px solid grey;
+}
+
+main figcaption{
+  margin: 2%;
+}
+
+main figcaption p{
+  border: 2px solid grey;
+  border-top: 3px solid #ed2969;
+  padding: 2% !important;
+  text-align: justify;
+}
+
+.authors{
+  margin-left: 5% !important;
+  background: #666 !important;
+  width: 20% !important;
+}
+.img-auteur img{
+  width: 80% !important;
+  height: 80% !important;
+  border-radius: 100% !important;
+}
+.nom-auteur{
+  margin-top: 100% !important;
+  border:1px solid red;
+}
+.authors .row {
+  border: 1px solid red;
+}
