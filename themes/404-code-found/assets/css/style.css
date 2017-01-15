@@ -6,45 +6,249 @@
 
 body{
   background:#e3e3e3 !important;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
-nav{
-  background:#666 !important;
+header{
+  position: relative !important;
+  height: 17vh !important;
 }
+
+.menu{
+  background-color: #444 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 10vh !important;
+}
+
+.nav-wrapper img {
+  margin-top: 13% !important;
+}
+
+.orbar{
+  font-size: 2em;
+}
+
+#nav-mobile{
+  margin-top: -1%;
+  margin-left: 1%;
+}
+
+#social{
+  margin-right: 1% !important;
+}
+
+#categorie{
+    background-color: #fff !important;
+    height: 7vh !important;
+}
+
 #navcat{
-  display:flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  /*justify-content: space-between;*/
+  height: 7vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.carousel .carousel-item {
-  width:300px !important;
-  height: 600px;
+.categorie{
+  color: #ed2969 !important;
 }
-main img{
-  width: 100% !important;
+
+main{
+ position: relative !important;
 }
-main figcaption{
-  margin: 2%;
+
+.carousel {
+  position: relative;
+  width: 80vw !important;
+  height: 40vh;
+  margin-top: 2%;
+  padding: 0;
+}
+
+.carousel-item {
+  width: 25vw !important;
+  height: 20vh;
+  color: #ed2969;
+  margin-top: 4% !important;
+}
+
+.text{
+  position: absolute !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+.carousel h1{
+  font-size: 2em;
+  top: 40% !important;
+  left: 20% !important;
+}
+
+.carousel h3{
+  font-size: 1em;
+  top: 50% !important;
+  left: 20% !important;
+}
+
+.btn{
+  position: absolute !important;
+  top:-37% !important;
+  background-color: #ed2969 !important;
+}
+
+li.indicator-item{
+  background-color: #ed2969 !important;
+}
+
+h4 span {
+  color:#ed2969;
+  margin: 1%;
 }
 .lastart{
-  margin-left: 5% !important;
-  background: #666 !important;
-  width: 60% !important;
-  padding:3% !important;
-}
-
-.authors{
-  margin-left: 10% !important;
-  background: #666 !important;
-  width: 20% !important;
+  margin: 2.5% !important;
   padding:3% !important;
 }
 
 .pagination{
   margin-top: 4% !important;
 }
-.authimg{
-  width: 700px !important;
+
+figcaption img {
+  width: 100% !important;
+  margin-bottom: -3%;
+  border: 2px solid grey;
+}
+
+main figcaption{
+  margin: 2%;
+}
+
+main figcaption article{
+  border: 2px solid grey;
+  border-top: 5px solid #ed2969;
+  padding: 2% !important;
+  text-align: justify;
+}
+
+.authors{
+  margin-top: 5% !important;
+  margin-left: 5% !important;
+  background: #999 !important;
+  width: 20% !important;
+  padding:3% 0!important;
+  color: #fff;
+}
+
+.authorname {
+  font-size: 1.3em;
+  padding-top: 5% !important
+}
+
+footer{
+  background:#fff !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.input-field input[type=email]:focus:not([readonly]){
+  border-bottom: 1px solid #ed2969;
+  box-shadow: 0 1px 0 0 #ed2969;
+  color: #ed2969;
+}
+
+label{
+  color: #ed2969 !important;
+}
+
+.footer, footer nav{
+  background-color: #444 !important;
+  box-shadow: 0 0px 0 0 #444 !important;
+  margin: 0 !important;
+}
+
+#newsletter{
+  background-color: #e3e3e3 !important;
+  padding-bottom: 1% !important;
+  margin: 0 !important;
+}
+
+#btnNL{
+  width: 5%;
+  margin-top: 1.5%;
+}
+
+#rs{
+  padding-top: 2% !important;
+}
+#logoPartenaire{
+  padding-top: 1.5% !important;
+}
+#menuFooter{
+  padding-top: 3% !important;
+}
+
+.footer-copyright{
+  background-color: #444 !important;
+  padding-top: 1% !important;
+}
+
+
+@media screen and (max-width: 640px) {
+  .lastart{
+    margin:0% !important;
+    background: #888 !important;
+    padding:3% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  header{
+    position: relative !important;
+    height: 12vh !important;
+  }
+
+
+  .menu{
+    background-color: #444 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 5vh !important;
+  }
+  #navcat{
+    height: 7vh !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .categorie{
+    color: #ed2969 !important;
+  }
+
+  #categorie{
+      background-color: #fff !important;
+      height: 7vh !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .text{
+    top: 2%;
+  }
+  .carousel h1{
+    font-size: 1em;
+  }
+
+  .carousel h3{
+    font-size: 0.1em;
+  }
+
 }
